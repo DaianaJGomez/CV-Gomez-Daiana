@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+          <a href="index.html" class="logo">
+            <img
+              height="50"
+              width="50"
+              src="Logo.png"
+              alt="programador"
+            />
+            <div class="logotype">
+             Gomez Daiana<br />
+              { Estudiante }
+            </div>
+          </a>
+          <ul class="menu">
+            <li><a href="../index.html" class="selected">Perfil</a></li>
+            <li><a href="experience.html">Experiencia</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details-group">
+                <p class="contact-label">Direccion</p>
+                <p class="contact-text">Capital Federal,Argentina</p>
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-label">Email</p>
+                <p class="contact-text">daiagomez@uade.edu.ar</p>
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-text">
+                    Deja tu mensaje y me contanto.
+                </p>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                  <label for="name">Nombre</label>
+                  <input required type="text" name="name" id="name" />
+                </div>
+                <div class="contact-form-group">
+                  <label for="email">Email</label>
+                  <input required type="email" name="email" id="email" />
+                </div>
+                <div class="contact-form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+        </section>
+
+
+    </div>
+    <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Gomez Daiana</h2>
+          <h5>Derechos reservados al autor</h5>
+        </div>
+      </footer>
+</body>
+</html>
